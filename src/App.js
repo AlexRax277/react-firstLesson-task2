@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
-import ShopItemFunc from "./ShopItemFunc/ShopItemFunc";
+import ShopItemClass from "./ShopItemClass/ShopItemClass";
 
 function App() {
   // return (
@@ -38,7 +38,7 @@ function App() {
         <div className='highlight-overlay'></div>
       </div>
       <div className="window">
-        <ShopItemFunc item={item} />
+        <ShopItemClass item={item} />
       </div>
     </div>
   );

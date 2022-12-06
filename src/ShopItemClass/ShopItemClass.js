@@ -1,8 +1,8 @@
-import './ShopItemFunc.css';
+import './ShopItemClass.css';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-class ShopItemFunc extends React.Component {
+class ShopItemClass extends React.Component {
     static propTypes = {
         item: PropTypes.object,
         brand: PropTypes.string,
@@ -34,4 +34,4 @@ class ShopItemFunc extends React.Component {
     }
 }
 
-export default ShopItemFunc;
+export default ShopItemClass;
